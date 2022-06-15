@@ -1,0 +1,54 @@
+.material-symbols-outlined {
+    color: rgb(82, 85, 88);
+}
+
+.material-symbols-outlined:hover {
+    color: white;
+}
+
+.d {
+    background-color: #24262d;
+    border-style: solid;
+    border-color: grey;
+}
+
+.r {
+    background-color: #24262d;
+    border-style: solid;
+    border-color: grey;
+}
+
+.ATaskManager {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/*.l {
+    border: 1px solid grey;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}*/
+
+.b {
+    border-radius: 10;
+    background-color: rgb(195, 195, 206);
+}
+
+body {
+    background-color: rgb(29, 29, 32);
+}
+
+.calendar {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.one {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.cr {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}

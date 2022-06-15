@@ -1,0 +1,62 @@
+.d {
+    background-color: #24262d;
+    border-style: solid;
+    border-color: grey;
+}
+
+.r {
+    background-color: #24262d;
+    border-style: solid;
+    border-color: grey;
+}
+
+.material-symbols-outlined {
+    color: rgb(82, 85, 88);
+}
+
+.material-symbols-outlined:hover {
+    color: white;
+}
+
+body {
+    background-color: rgb(29, 29, 32);
+}
+
+.ATaskManager {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container.pt-5.pb-5 {
+    border-style: solid;
+    border-color: grey;
+    height: 300px;
+    width: 1300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.container2 {
+    border-style: solid;
+    border-color: grey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  } 
+
+  .container3 {
+    border-style: solid;
+    border-color: grey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  } 
+
+.as {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Chart</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href= "./bootstrap.css"> 
+  <link rel="stylesheet" href= "../css/elements.css"> 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+
+    <div class="container-fluid my-container">
+        <div class="row my-row">
+            <div class="col-1 my-col d">
+                <div class="row t my-row">
+                    <img class="logo" src="../images/Logo.PNG">
+                </div>
+
+                <div class="row my-row text-center mt-4 dashboard" title="Dashboard" data-toggle="tooltip">
+                    <a href="../pages/Dashboard.html">
+                        <span class="material-symbols-outlined">
+                            dashboard
+                        </span>
+                    </a>
+                </div>
+
+                <div class="row my-row text-center mt-5 calendar" title="Calendar" data-toggle="tooltip">
+                    <a href="../pages/calendar.html">
+                        <span class="material-symbols-outlined">
+                            calendar_month
+                        </span>
+                    </a>
+                </div>
+
+                <div class="row my-row text-center mt-5 task" title="Tasks" data-toggle="tooltip">
+                    <a href="../pages/Tasks.html">
+                        <span class="material-symbols-outlined">
+                            task
+                        </span>
+                    </a>
+                </div>
+
+                <div class="row my-row text-center mt-5 notifications" title="Reminders" data-toggle="tooltip">
+                    <a href="../pages/Reminders.html">
+                        <span class="material-symbols-outlined">
+                            notifications
+                        </span>
+                    </a>
+                </div>
+
+                <div class="row my-row text-center mt-5 analytics" title="Analytics" data-toggle="tooltip">
+                    <a href="../pages/Analytics.html">
+                        <span class="material-symbols-outlined">
+                            analytics
+                        </span>
+                    </a>
+                </div>
+
+                <div class="row my-row text-center mt-5 settings" title="Settings" data-toggle="tooltip">
+                    <a href="../pages/Settings.html">
+                        <span class="material-symbols-outlined">
+                            settings
+                        </span>
+                    </a>
+                </div>
+
+                <div class="row my-row text-center mt-5 settings" title="Settings" data-toggle="tooltip">
+                    <a href="../index.html">
+                        <span class="material-symbols-outlined">
+                            logout
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col my-col">
+                <div class="row my-row ll bg-dark">
+                    <h7 class="ATaskManager">ATaskManager</h7>
+                </div>
+
+                <div class="row my-row pt-3">
+                    <h5 class="db">Dashboard</h5>
+                </div>
+
+                <div class="row my-row">
+                    <div class="col-10 my-col">
+                        <div class="row px-2 my-row charts"> 
+                                <div class="container lc bg-dark pt-5 pb-5 mt-5">
+                                    <canvas id="lineChart"></canvas>
+                                </div>
+                        </div>
+
+                        <div class="row my-row">
+                            <div class="col-4 my-col">
+                                <div class="row my-row pb-4 mt-5">
+                                    <div class="container">
+                                        <div class="card bg-dark">
+                                                <div class="card-body">
+                                                    <div class="row my-row">
+                                                        <div class="col my-col">
+                                                            <div class="row my-row">
+                                                                <div class="card-title pl-3">
+                                                                    NOT STARTED
+                                                                </div>
+                                                            </div> 
+                                
+                                                            <div class="row my-row">
+                                                                <p class="card-number">
+                                                                    10
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                
+                                                        <div class="col my-col align-self-center">
+                                                          
+                                
+                                                            <div class="row my-row text-center">
+                                                                <span class="material-symbols-outlined ns">
+                                                                    not_started
+                                                                </span>
+                                                            </div>
+                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row my-row pb-4">
+                                    <div class="container">
+                                        <div class="card bg-dark">
+                                                <div class="card-body">
+                                                    <div class="row my-row">
+                                                        <div class="col my-col">
+                                                            <div class="row my-row">
+                                                                <div class="card-title pl-3">
+                                                                    IN PROGRESS
+                                                                </div>
+                                                            </div> 
+                                
+                                                            <div class="row my-row">
+                                                                <p class="card-number-IP">
+                                                                    5
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                
+                                                        <div class="col my-col align-self-center">
+                                                          
+                                
+                                                            <div class="row my-row text-center">
+                                                                <span class="material-symbols-outlined s">
+                                                                    schedule
+                                                                </span>
+                                                            </div>
+                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row my-row">
+                                    <div class="container">
+                                        <div class="card bg-dark">
+                                                <div class="card-body">
+                                                    <div class="row my-row">
+                                                        <div class="col my-col">
+                                                            <div class="row my-row">
+                                                                <div class="card-title pl-3">
+                                                                    COMPLETED
+                                                                </div>
+                                                            </div> 
+                                
+                                                            <div class="row my-row">
+                                                                <p class="card-number-C">
+                                                                    8
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                
+                                                        <div class="col my-col align-self-center">
+                                                          
+                                
+                                                            <div class="row my-row text-center">
+                                                                <span class="material-symbols-outlined c">
+                                                                    check_circle
+                                                                </span>
+                                                            </div>
+                                
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col my-col">
+                                <div class="row my-row pt-5">
+                                    <div class="col my-col charts">
+                                        <a href="Analytics.html" class="href">
+                                            <div class="container2 bg-dark">
+                                                <canvas id="doughnutChart"></canvas>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="col my-col">
+                                        <div class="container">
+                                            <div class="card listing">
+                                                <div class="card-header bg-dark">
+                                                    UPCOMING TASKS
+                                                </div>
+                                                <ul class="list-group list-group-flush">
+                                                    <li class="list-group-item bg-dark">
+                                                        ○ Select article topic
+                                                    </li>
+                                                    <li class="list-group-item bg-dark">
+                                                        ○ Gather information and resources
+                                                    </li>
+                                                    <li class="list-group-item bg-dark">
+                                                        ○ Create draft
+                                                    </li>
+                                                    <li class="list-group-item bg-dark">
+                                                        ○ Edit draft
+                                                    </li>
+                                                    <li class="list-group-item bg-dark">
+                                                        ○ Proofread content
+                                                    </li>
+                                                    <li class="list-group-item bg-dark">
+                                                        ○ Add visuals
+                                                    </li>
+                                                    <li class="list-group-item bg-dark">
+                                                        ○ Publish 
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2 my-col r  mt-5">
+                        <div class="row my-row">
+                            <img class="profile" src="../images/profilePicture_.png">
+                        </div>
+
+                        <div class="row my-row">
+                            <h5 class="name text-center">Mandira Juneja</h5>
+                        </div>
+
+                        <div class="row my-row">
+                            <h6 class="occupation text-center">Student</h6>
+                        </div>
+
+                        <div class="row my-row pt-5">
+                            <h5 class="AF">Activity Feed</h5>
+                        </div>
+
+                        <div class="row my-row pt-3">
+                           <h7 class="CT">COMPLETED TASK - Talk to client (15:03)</h7>
+                        </div>
+
+                        <div class="row my-row pt-3">
+                            <h7 class="IT">INCOMPLETE TASK - Select article topic</h7>
+                        </div>
+
+                        <div class="row my-row pt-3">
+                            <h7 class="IT">INCOMPLETE TASK - Gather information and resources</h7>
+                        </div>
+
+                        <div class="row my-row pt-3">
+                            <h7 class="IT">INCOMPLETE TASK - Create draft</h7>
+                        </div>
+
+                        <div class="row my-row pt-3">
+                            <h7 class="IT">INCOMPLETE TASK - Edit draft</h7>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+    <script>
+
+        let lineChart = document.getElementById("lineChart").getContext('2d');
+
+
+        let newChart = new Chart(lineChart, {
+            type: 'line',
+            data: {
+                labels:['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'],
+                datasets: [{
+                    label: 'Number of tasks on due date',
+                    data: [2,2,4,2,5,3,4],
+                    borderColor:'rgba(0, 0, 255, 1)',
+                    borderWidth: '3',
+                    borderRadius: '15',
+                    backgroundColor:'rgba(0, 0, 255, 0.2)',
+                    tension: 0.4,
+                    fill: true,       
+                }]
+            },
+            options:{
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        labels : {
+                            font: {
+                                family: "'Fira Sans', sans-serif'"
+                            },
+                        },
+                        display: false
+                    },
+                },
+
+                elements: {
+                    /*point: {
+                        radius: 0
+                    }*/
+                },
+                scales: {
+               
+                    x: {
+                        grid: {
+                            display: false
+                        },
+                        ticks: {
+                            color: '#FFFFFF'
+                        }
+                    },
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            precision: 0,
+                            color: '#3A3C4E'
+                        },
+
+                    }
+                }
+            }
+        });
+    </script>
+
+
+
+<script>
+    let doughnutChart = document.getElementById("doughnutChart").getContext('2d');
+
+    let newSecondChart = new Chart(doughnutChart, {
+        type: 'doughnut',
+        data: {
+            labels:['Completed', 'Not Completed'],
+            datasets: [{
+                cutout: 100,
+                label: 'Task Status',
+                data: ['90','10'],
+                backgroundColor: ['#630791','#8f4db0']
+
+            }]
+        },
+        options:{
+            scales: {
+                x: {
+                    ticks: {
+                        color: '#FFFFFF'
+                    }
+                },
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        precision: 0,
+                        color: '#3A3C4E'
+                    },
+
+                }
+            }
+        }
+    });
+</script>
+
+</body>
+
+</html>

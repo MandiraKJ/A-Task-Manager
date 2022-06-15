@@ -1,0 +1,68 @@
+.d {
+    background-color: #24262d;
+    border-style: solid;
+    border-color: grey;
+}
+
+.r {
+    background-color: #24262d;
+    border-style: solid;
+    border-color: grey;
+}
+
+.ATaskManager {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(29, 29, 32);
+}
+
+.calendarAccounts {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.selectProvider {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.Google {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.SyncCalendars {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.gog {
+    height: 25px;
+    width: 25px;
+}
+
+.material-symbols-outlined {
+    color: rgb(82, 85, 88);
+}
+
+.material-symbols-outlined:hover {
+    color: white;
+}
+
+.a {
+    color: white;
+}
+
+.card {
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}

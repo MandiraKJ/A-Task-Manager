@@ -1,0 +1,187 @@
+.card {
+    width: 320px;
+    height: 110px;
+    background-color: rgb(31, 7, 75);
+    font-family: 'Fira Sans', sans-serif;
+    border-style: solid;
+    border-color: grey;
+}
+
+.card-title {
+    color: grey;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(29, 29, 32);
+}
+
+.TS {
+    color: white;
+}
+
+.bi {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card-number {
+    color: rgb(255, 0, 0);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+}
+
+.card-number-IP {
+    color: rgb(255, 176, 5);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+}
+
+.card-number-C {
+    color: rgb(27, 199, 27);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  } 
+
+.container.pt-5.pb-5 {
+    border-style: solid;
+    border-color: grey;
+    height: 300px;
+    width: 1300px;
+}
+
+.container2 {
+    border-style: solid;
+    border-color: grey;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  } 
+
+.r.bg-dark {
+    border-top-left-radius: 15px;
+}
+
+.d {
+    background-color: #24262d;
+    border-style: solid;
+    border-color: grey;
+}
+
+.t {
+    color: white;
+}
+
+.i {
+    color: white;
+}
+
+.material-symbols-outlined {
+    color: rgb(82, 85, 88);
+}
+
+.ns {
+    color:rgb(255, 0, 0);
+}
+
+.s {
+    color: rgb(255, 176, 5);
+}
+
+.c {
+    color: rgb(27, 199, 27);
+}
+
+.material-symbols-outlined:hover {
+    color: white;
+}
+
+.card-font {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.card-header {
+    color: grey;
+}
+
+.list-group-item {
+    background-color: rgb(198, 197, 197);
+    color: white;
+}
+
+.r {
+    background-color: #24262d;
+    border-top-left-radius: 15px;
+    border-style: solid;
+    border-color: grey;
+}
+
+.name {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.occupation {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.listing {
+    border-style: solid;
+    border-color: grey;
+}
+
+.ll {
+    border-style: solid;
+    border-color: grey;
+} 
+
+.AF {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.CT {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.IT {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.ATaskManager {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.charts:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.charts {
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.so {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.db {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}

@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(43, 42, 46);
+}
+
+.a {
+    background-color: rgb(47, 74, 224);
+}
+
+.b {
+    background-color: rgb(29, 29, 32);
+}
+
+.welcomeBack {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.loginWithEmail {
+    color: grey;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.EmailAddress {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.Password {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.form-check-label {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.forgotPassword {
+    color: rgb(47, 74, 224);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.forgotPassword:hover {
+    color: rgb(86, 108, 228);
+    font-family: 'Fira Sans', sans-serif;
+    cursor: pointer;
+}
+
+.signup {
+    color: rgb(47, 74, 224);
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.signup:hover {
+    color: rgb(86, 108, 228);
+    font-family: 'Fira Sans', sans-serif;
+    cursor: pointer;
+}
+
+.google {
+    height: 25px;
+    width: 25px;
+}
+
+.loginWithGoogle {
+    font-weight: bold;
+    color: black;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.gog {
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow;
+    cursor: pointer;
+}
+
+.gog:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.form-control {
+    background-color: rgb(24, 24, 26);
+    color: grey;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.log {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: rgb(47, 74, 224);
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.log:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.ATaskManager {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.account {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}

@@ -1,0 +1,53 @@
+.d {
+    background-color: #24262d;
+    border-style: solid;
+    border-color: grey;
+}
+
+.r {
+    background-color: #24262d;
+    border-style: solid;
+    border-color: grey;
+}
+
+.material-symbols-outlined {
+    color: rgb(82, 85, 88);
+}
+
+.material-symbols-outlined:hover {
+    color: white;
+}
+
+body {
+    background-color: rgb(29, 29, 32);
+}
+
+.ATaskManager {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.writing {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card {
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.back {
+    color: white;
+}
+
+.ss {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
